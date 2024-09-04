@@ -12,7 +12,7 @@ namespace palindrome
         {
             Console.Write("Write your phrase to check if palindrome: ");
             String phrase = Console.ReadLine();
-            Console.WriteLine(phrase.Length);
+            
             Console.WriteLine(resolution(phrase));
             Console.ReadKey();
         }
@@ -20,7 +20,7 @@ namespace palindrome
         static String resolution(String p)
         {
             //check if null
-            if(p == null) return "Dumbass type something";
+            if(p == null) return "Come on type something";
 
             //else
             //REVERSED INT goes
@@ -41,7 +41,7 @@ namespace palindrome
             if (reversed != temp)
                 return "\nNot palindrome! \n";
             else
-                return "\nIT ISSSSSSSSS :3";
+                return "\nIT IS A PALINDROME!!!";
             
         }
     }
